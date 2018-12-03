@@ -1,8 +1,10 @@
 #! /usr/bin/python
+
 # Uses the string returned from filename.py to create a folder that Plex can index.
 # 
 # Accepts a string as an argument and uses that as the source directory
 # The destination directory is created using the foldername() function from filename.py
+
 import os, sys, shutil
 # Import function from filename.py
 from filename import foldername
