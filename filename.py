@@ -15,7 +15,7 @@
 
 plexfoldername = []
 numberindex = 0
-import os, re, sys
+import re, sys
 def foldername(filefolder):
     #
     split = filefolder.split('.')
